@@ -1,0 +1,6 @@
+﻿  test.cpp
+d:\coding\c++\leetcode\problem236_lowest_comman_ancestor_of_binary_tree\problem236_lowest_comman_ancestor_of_binary_tree\test.cpp(43): warning C4018: '<': signed/unsigned mismatch
+d:\coding\c++\leetcode\problem236_lowest_comman_ancestor_of_binary_tree\problem236_lowest_comman_ancestor_of_binary_tree\test.cpp(48): warning C4018: '<': signed/unsigned mismatch
+d:\coding\c++\leetcode\problem236_lowest_comman_ancestor_of_binary_tree\problem236_lowest_comman_ancestor_of_binary_tree\test.cpp(34): warning C4715: 'Solution::lowestCommonAncestor': not all control paths return a value
+  Problem236_Lowest_Comman_Ancestor_of_Binary_Tree.vcxproj -> D:\Coding\C++\Leetcode\Problem236_Lowest_Comman_Ancestor_of_Binary_Tree\Debug\Problem236_Lowest_Comman_Ancestor_of_Binary_Tree.exe
+  Problem236_Lowest_Comman_Ancestor_of_Binary_Tree.vcxproj -> D:\Coding\C++\Leetcode\Problem236_Lowest_Comman_Ancestor_of_Binary_Tree\Debug\Problem236_Lowest_Comman_Ancestor_of_Binary_Tree.pdb (Full PDB)

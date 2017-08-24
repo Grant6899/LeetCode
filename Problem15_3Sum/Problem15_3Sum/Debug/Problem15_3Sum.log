@@ -1,0 +1,4 @@
+﻿  test.cpp
+d:\coding\c++\leetcode\problem15_3sum\problem15_3sum\test.cpp(20): warning C4018: '<': signed/unsigned mismatch
+  Problem15_3Sum.vcxproj -> D:\Coding\C++\Leetcode\Problem15_3Sum\Debug\Problem15_3Sum.exe
+  Problem15_3Sum.vcxproj -> D:\Coding\C++\Leetcode\Problem15_3Sum\Debug\Problem15_3Sum.pdb (Full PDB)

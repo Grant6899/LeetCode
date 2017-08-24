@@ -1,0 +1,4 @@
+﻿  test.cpp
+d:\coding\c++\leetcode\problem2_add_two_numbers\problem2_add_two_numbers\test.cpp(50): warning C4018: '<': signed/unsigned mismatch
+  Problem2_Add_Two_Numbers.vcxproj -> D:\Coding\C++\Leetcode\Problem2_Add_Two_Numbers\Debug\Problem2_Add_Two_Numbers.exe
+  Problem2_Add_Two_Numbers.vcxproj -> D:\Coding\C++\Leetcode\Problem2_Add_Two_Numbers\Debug\Problem2_Add_Two_Numbers.pdb (Full PDB)

@@ -1,0 +1,5 @@
+﻿  test.cpp
+d:\coding\c++\leetcode\problem34_search_for_a_range\problem34_search_for_a_range\test.cpp(24): error C2091: function returns function
+d:\coding\c++\leetcode\problem34_search_for_a_range\problem34_search_for_a_range\test.cpp(29): error C2091: function returns function
+d:\coding\c++\leetcode\problem34_search_for_a_range\problem34_search_for_a_range\test.cpp(14): error C2660: 'Solution::findleft': function does not take 2 arguments
+d:\coding\c++\leetcode\problem34_search_for_a_range\problem34_search_for_a_range\test.cpp(15): error C2660: 'Solution::findright': function does not take 2 arguments

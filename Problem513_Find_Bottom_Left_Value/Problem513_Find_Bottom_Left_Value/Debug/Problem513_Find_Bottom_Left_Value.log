@@ -1,0 +1,5 @@
+﻿  test.cpp
+d:\coding\c++\leetcode\problem513_find_bottom_left_value\problem513_find_bottom_left_value\test.cpp(45): warning C4018: '<': signed/unsigned mismatch
+d:\coding\c++\leetcode\problem513_find_bottom_left_value\problem513_find_bottom_left_value\test.cpp(50): warning C4018: '<': signed/unsigned mismatch
+  Problem513_Find_Bottom_Left_Value.vcxproj -> D:\Coding\C++\Leetcode\Problem513_Find_Bottom_Left_Value\Debug\Problem513_Find_Bottom_Left_Value.exe
+  Problem513_Find_Bottom_Left_Value.vcxproj -> D:\Coding\C++\Leetcode\Problem513_Find_Bottom_Left_Value\Debug\Problem513_Find_Bottom_Left_Value.pdb (Full PDB)

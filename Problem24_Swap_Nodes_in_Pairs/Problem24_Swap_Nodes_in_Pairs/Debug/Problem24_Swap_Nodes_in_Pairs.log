@@ -1,0 +1,4 @@
+﻿  test.cpp
+d:\coding\c++\leetcode\problem24_swap_nodes_in_pairs\problem24_swap_nodes_in_pairs\test.cpp(44): warning C4018: '<': signed/unsigned mismatch
+  Problem24_Swap_Nodes_in_Pairs.vcxproj -> D:\Coding\C++\Leetcode\Problem24_Swap_Nodes_in_Pairs\Debug\Problem24_Swap_Nodes_in_Pairs.exe
+  Problem24_Swap_Nodes_in_Pairs.vcxproj -> D:\Coding\C++\Leetcode\Problem24_Swap_Nodes_in_Pairs\Debug\Problem24_Swap_Nodes_in_Pairs.pdb (Full PDB)

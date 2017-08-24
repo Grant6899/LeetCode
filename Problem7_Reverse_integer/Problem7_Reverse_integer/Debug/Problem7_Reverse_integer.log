@@ -1,0 +1,4 @@
+﻿  test.cpp
+d:\coding\c++\leetcode\problem7_reverse_integer\problem7_reverse_integer\test.cpp(15): warning C4244: 'return': conversion from '__int64' to 'int', possible loss of data
+  Problem7_Reverse_integer.vcxproj -> D:\Coding\C++\Leetcode\Problem7_Reverse_integer\Debug\Problem7_Reverse_integer.exe
+  Problem7_Reverse_integer.vcxproj -> D:\Coding\C++\Leetcode\Problem7_Reverse_integer\Debug\Problem7_Reverse_integer.pdb (Full PDB)

@@ -1,0 +1,6 @@
+﻿  test.cpp
+d:\coding\c++\leetcode\problem107_binary_tree_level_order_traversal ii\problem107_binary_tree_level_order_traversal ii\test.cpp(30): warning C4018: '>=': signed/unsigned mismatch
+d:\coding\c++\leetcode\problem107_binary_tree_level_order_traversal ii\problem107_binary_tree_level_order_traversal ii\test.cpp(45): warning C4018: '<': signed/unsigned mismatch
+d:\coding\c++\leetcode\problem107_binary_tree_level_order_traversal ii\problem107_binary_tree_level_order_traversal ii\test.cpp(50): warning C4018: '<': signed/unsigned mismatch
+  Problem107_Binary_Tree_Level_Order_Traversal II.vcxproj -> D:\Coding\C++\Leetcode\Problem107_Binary_Tree_Level_Order_Traversal II\Debug\Problem107_Binary_Tree_Level_Order_Traversal II.exe
+  Problem107_Binary_Tree_Level_Order_Traversal II.vcxproj -> D:\Coding\C++\Leetcode\Problem107_Binary_Tree_Level_Order_Traversal II\Debug\Problem107_Binary_Tree_Level_Order_Traversal II.pdb (Full PDB)

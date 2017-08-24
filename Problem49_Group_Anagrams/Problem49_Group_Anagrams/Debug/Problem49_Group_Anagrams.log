@@ -1,0 +1,4 @@
+﻿  test.cpp
+d:\coding\c++\leetcode\problem49_group_anagrams\problem49_group_anagrams\test.cpp(17): warning C4018: '<': signed/unsigned mismatch
+  Problem49_Group_Anagrams.vcxproj -> D:\Coding\C++\Leetcode\Problem49_Group_Anagrams\Debug\Problem49_Group_Anagrams.exe
+  Problem49_Group_Anagrams.vcxproj -> D:\Coding\C++\Leetcode\Problem49_Group_Anagrams\Debug\Problem49_Group_Anagrams.pdb (Full PDB)

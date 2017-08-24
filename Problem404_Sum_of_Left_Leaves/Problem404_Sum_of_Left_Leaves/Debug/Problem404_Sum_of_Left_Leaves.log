@@ -1,0 +1,5 @@
+﻿  test.cpp
+d:\coding\c++\leetcode\problem404_sum_of_left_leaves\problem404_sum_of_left_leaves\test.cpp(36): warning C4018: '<': signed/unsigned mismatch
+d:\coding\c++\leetcode\problem404_sum_of_left_leaves\problem404_sum_of_left_leaves\test.cpp(41): warning C4018: '<': signed/unsigned mismatch
+  Problem404_Sum_of_Left_Leaves.vcxproj -> D:\Coding\C++\Leetcode\Problem404_Sum_of_Left_Leaves\Debug\Problem404_Sum_of_Left_Leaves.exe
+  Problem404_Sum_of_Left_Leaves.vcxproj -> D:\Coding\C++\Leetcode\Problem404_Sum_of_Left_Leaves\Debug\Problem404_Sum_of_Left_Leaves.pdb (Full PDB)

@@ -1,0 +1,7 @@
+﻿  test.cpp
+d:\coding\c++\leetcode\problem18_4sum\problem18_4sum\test.cpp(19): warning C4018: '<': signed/unsigned mismatch
+d:\coding\c++\leetcode\problem18_4sum\problem18_4sum\test.cpp(23): warning C4018: '<': signed/unsigned mismatch
+d:\coding\c++\leetcode\problem18_4sum\problem18_4sum\test.cpp(35): warning C4018: '<': signed/unsigned mismatch
+d:\coding\c++\leetcode\problem18_4sum\problem18_4sum\test.cpp(43): warning C4018: '<': signed/unsigned mismatch
+  Problem18_4Sum.vcxproj -> D:\Coding\C++\Leetcode\Problem18_4Sum\Debug\Problem18_4Sum.exe
+  Problem18_4Sum.vcxproj -> D:\Coding\C++\Leetcode\Problem18_4Sum\Debug\Problem18_4Sum.pdb (Full PDB)

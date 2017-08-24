@@ -1,0 +1,5 @@
+﻿  test.cpp
+d:\coding\c++\leetcode\problem29_divide_two_integers\problem29_divide_two_integers\test.cpp(31): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+d:\coding\c++\leetcode\problem29_divide_two_integers\problem29_divide_two_integers\test.cpp(52): warning C4244: '+=': conversion from '__int64' to 'int', possible loss of data
+  Problem29_Divide_Two_Integers.vcxproj -> D:\Coding\C++\Leetcode\Problem29_Divide_Two_Integers\Debug\Problem29_Divide_Two_Integers.exe
+  Problem29_Divide_Two_Integers.vcxproj -> D:\Coding\C++\Leetcode\Problem29_Divide_Two_Integers\Debug\Problem29_Divide_Two_Integers.pdb (Full PDB)

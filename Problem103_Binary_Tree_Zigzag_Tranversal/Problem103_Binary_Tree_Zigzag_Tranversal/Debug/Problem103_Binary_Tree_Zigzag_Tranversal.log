@@ -1,0 +1,6 @@
+﻿  test.cpp
+d:\coding\c++\leetcode\problem103_binary_tree_zigzag_tranversal\problem103_binary_tree_zigzag_tranversal\test.cpp(30): warning C4018: '>=': signed/unsigned mismatch
+d:\coding\c++\leetcode\problem103_binary_tree_zigzag_tranversal\problem103_binary_tree_zigzag_tranversal\test.cpp(49): warning C4018: '<': signed/unsigned mismatch
+d:\coding\c++\leetcode\problem103_binary_tree_zigzag_tranversal\problem103_binary_tree_zigzag_tranversal\test.cpp(54): warning C4018: '<': signed/unsigned mismatch
+  Problem103_Binary_Tree_Zigzag_Tranversal.vcxproj -> D:\Coding\C++\Leetcode\Problem103_Binary_Tree_Zigzag_Tranversal\Debug\Problem103_Binary_Tree_Zigzag_Tranversal.exe
+  Problem103_Binary_Tree_Zigzag_Tranversal.vcxproj -> D:\Coding\C++\Leetcode\Problem103_Binary_Tree_Zigzag_Tranversal\Debug\Problem103_Binary_Tree_Zigzag_Tranversal.pdb (Full PDB)

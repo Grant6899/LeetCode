@@ -1,0 +1,4 @@
+﻿  test.cpp
+d:\coding\c++\leetcode\problem20_valid_parentheses\problem20_valid_parentheses\test.cpp(17): warning C4018: '<': signed/unsigned mismatch
+  Problem20_Valid_Parentheses.vcxproj -> D:\Coding\C++\Leetcode\Problem20_Valid_Parentheses\Debug\Problem20_Valid_Parentheses.exe
+  Problem20_Valid_Parentheses.vcxproj -> D:\Coding\C++\Leetcode\Problem20_Valid_Parentheses\Debug\Problem20_Valid_Parentheses.pdb (Full PDB)

@@ -1,0 +1,5 @@
+﻿  test.cpp
+d:\coding\c++\leetcode\problem13_roman_to_int\problem13_roman_to_int\test.cpp(14): warning C4018: '<': signed/unsigned mismatch
+d:\coding\c++\leetcode\problem13_roman_to_int\problem13_roman_to_int\test.cpp(32): warning C4244: 'return': conversion from '__int64' to 'int', possible loss of data
+  Problem13_Roman_to_Int.vcxproj -> D:\Coding\C++\Leetcode\Problem13_Roman_to_Int\Debug\Problem13_Roman_to_Int.exe
+  Problem13_Roman_to_Int.vcxproj -> D:\Coding\C++\Leetcode\Problem13_Roman_to_Int\Debug\Problem13_Roman_to_Int.pdb (Full PDB)

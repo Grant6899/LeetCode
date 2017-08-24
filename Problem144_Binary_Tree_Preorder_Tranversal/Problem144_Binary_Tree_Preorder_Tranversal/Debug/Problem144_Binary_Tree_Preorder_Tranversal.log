@@ -1,0 +1,5 @@
+﻿  test.cpp
+d:\coding\c++\leetcode\problem144_binary_tree_preorder_tranversal\problem144_binary_tree_preorder_tranversal\test.cpp(41): warning C4018: '<': signed/unsigned mismatch
+d:\coding\c++\leetcode\problem144_binary_tree_preorder_tranversal\problem144_binary_tree_preorder_tranversal\test.cpp(46): warning C4018: '<': signed/unsigned mismatch
+  Problem144_Binary_Tree_Preorder_Tranversal.vcxproj -> D:\Coding\C++\Leetcode\Problem144_Binary_Tree_Preorder_Tranversal\Debug\Problem144_Binary_Tree_Preorder_Tranversal.exe
+  Problem144_Binary_Tree_Preorder_Tranversal.vcxproj -> D:\Coding\C++\Leetcode\Problem144_Binary_Tree_Preorder_Tranversal\Debug\Problem144_Binary_Tree_Preorder_Tranversal.pdb (Full PDB)

@@ -1,0 +1,7 @@
+﻿  test.cpp
+d:\coding\c++\leetcode\problem116_populating_next_right_perfect_bt\problem116_populating_next_right_perfect_bt\test.cpp(49): warning C4018: '<': signed/unsigned mismatch
+d:\coding\c++\leetcode\problem116_populating_next_right_perfect_bt\problem116_populating_next_right_perfect_bt\test.cpp(54): warning C4018: '<': signed/unsigned mismatch
+d:\coding\c++\leetcode\problem116_populating_next_right_perfect_bt\problem116_populating_next_right_perfect_bt\test.cpp(66): warning C4018: '<': signed/unsigned mismatch
+d:\coding\c++\leetcode\problem116_populating_next_right_perfect_bt\problem116_populating_next_right_perfect_bt\test.cpp(71): warning C4018: '<': signed/unsigned mismatch
+  Problem116_Populating_Next_Right_Perfect_BT.vcxproj -> D:\Coding\C++\Leetcode\Problem116_Populating_Next_Right_Perfect_BT\Debug\Problem116_Populating_Next_Right_Perfect_BT.exe
+  Problem116_Populating_Next_Right_Perfect_BT.vcxproj -> D:\Coding\C++\Leetcode\Problem116_Populating_Next_Right_Perfect_BT\Debug\Problem116_Populating_Next_Right_Perfect_BT.pdb (Full PDB)

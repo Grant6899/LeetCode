@@ -1,0 +1,4 @@
+﻿  test.cpp
+d:\coding\c++\leetcode\problem4_median_of_two_sorted_arrays\problem4_median_of_two_sorted_arrays\test.cpp(53): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  Problem4_Median_Of_Two_Sorted_Arrays.vcxproj -> D:\Coding\C++\Leetcode\Problem4_Median_Of_Two_Sorted_Arrays\Debug\Problem4_Median_Of_Two_Sorted_Arrays.exe
+  Problem4_Median_Of_Two_Sorted_Arrays.vcxproj -> D:\Coding\C++\Leetcode\Problem4_Median_Of_Two_Sorted_Arrays\Debug\Problem4_Median_Of_Two_Sorted_Arrays.pdb (Full PDB)

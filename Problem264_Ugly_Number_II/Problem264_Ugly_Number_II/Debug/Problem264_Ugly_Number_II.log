@@ -1,0 +1,4 @@
+﻿  test.cpp
+d:\coding\c++\leetcode\problem264_ugly_number_ii\problem264_ugly_number_ii\test.cpp(12): warning C4018: '<': signed/unsigned mismatch
+  Problem264_Ugly_Number_II.vcxproj -> D:\Coding\C++\Leetcode\Problem264_Ugly_Number_II\Debug\Problem264_Ugly_Number_II.exe
+  Problem264_Ugly_Number_II.vcxproj -> D:\Coding\C++\Leetcode\Problem264_Ugly_Number_II\Debug\Problem264_Ugly_Number_II.pdb (Full PDB)

@@ -1,0 +1,4 @@
+﻿  test.cpp
+d:\coding\c++\leetcode\problem71_simplifypath\problem71_simplifypath\test.cpp(40): warning C4018: '<': signed/unsigned mismatch
+  Problem71_SimplifyPath.vcxproj -> D:\Coding\C++\Leetcode\Problem71_SimplifyPath\Debug\Problem71_SimplifyPath.exe
+  Problem71_SimplifyPath.vcxproj -> D:\Coding\C++\Leetcode\Problem71_SimplifyPath\Debug\Problem71_SimplifyPath.pdb (Full PDB)

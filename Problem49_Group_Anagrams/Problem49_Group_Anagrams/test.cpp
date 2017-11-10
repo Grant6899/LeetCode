@@ -35,8 +35,5 @@ int main() {
 
 	auto ans = s.groupAnagrams(vec);
 
-	/*string a = "314";
-	std::sort(a.begin(), a.end());
-	std::cout << a << endl;*/
 	return 0;
 }

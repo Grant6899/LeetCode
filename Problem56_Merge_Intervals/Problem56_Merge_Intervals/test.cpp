@@ -19,15 +19,23 @@ struct Interval {
 class Solution {
 public:
 	vector<Interval> merge(vector<Interval>& intervals) {
+
+		if (intervals.size() == 0)
+			return{};
 		vector<Interval> result;
 		sort(intervals.begin(), intervals.end(), [](Interval a, Interval b) {return a.start < b.start; });
 		result.push_back(intervals[0]);
 
 		for (int i = 1; i < intervals.size(); i++) {
-
+			if (intervals[i].end <= result.back().end)
+				continue;
+			else if (intervals[i].start <= result.back().end) {
+				result.back().end = intervals[i].end;
+			}
+			else
+				result.push_back(intervals[i]);
 		}
-		
-
+		return result;
 	}
 };
 
@@ -35,7 +43,8 @@ public:
 int main() {
 	Solution s;
 
-	std::vector<Interval> vec{ Interval(1,3), Interval(2,6), Interval(8,10), Interval(15,18) };
+	std::vector<Interval> vec{};
 	auto ans = s.merge(vec);
+
 	return 0;
 }

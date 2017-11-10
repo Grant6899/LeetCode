@@ -1,0 +1,4 @@
+﻿  test.cpp
+d:\coding\c++\leetcode\problem56_merge_intervals\problem56_merge_intervals\test.cpp(29): warning C4018: '<': signed/unsigned mismatch
+  Problem56_Merge_Intervals.vcxproj -> D:\Coding\C++\Leetcode\Problem56_Merge_Intervals\Debug\Problem56_Merge_Intervals.exe
+  Problem56_Merge_Intervals.vcxproj -> D:\Coding\C++\Leetcode\Problem56_Merge_Intervals\Debug\Problem56_Merge_Intervals.pdb (Full PDB)

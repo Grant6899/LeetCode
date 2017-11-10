@@ -1,0 +1,5 @@
+﻿  test.cpp
+d:\coding\c++\leetcode\problem78_subsets\problem78_subsets\test.cpp(14): warning C4018: '<=': signed/unsigned mismatch
+d:\coding\c++\leetcode\problem78_subsets\problem78_subsets\test.cpp(35): warning C4018: '<': signed/unsigned mismatch
+  Problem78_Subsets.vcxproj -> D:\Coding\C++\Leetcode\Problem78_Subsets\Debug\Problem78_Subsets.exe
+  Problem78_Subsets.vcxproj -> D:\Coding\C++\Leetcode\Problem78_Subsets\Debug\Problem78_Subsets.pdb (Full PDB)

@@ -1,6 +1,0 @@
-﻿  test.cpp
-d:\coding\c++\leetcode\problem8_str_to_int\problem8_str_to_int\test.cpp(14): warning C4018: '<': signed/unsigned mismatch
-d:\coding\c++\leetcode\problem8_str_to_int\problem8_str_to_int\test.cpp(25): warning C4244: 'return': conversion from '__int64' to 'int', possible loss of data
-d:\coding\c++\leetcode\problem8_str_to_int\problem8_str_to_int\test.cpp(27): warning C4715: 'Solution::myAtoi': not all control paths return a value
-  Problem8_Str_to_Int.vcxproj -> D:\Coding\C++\Leetcode\Problem8_Str_to_Int\Debug\Problem8_Str_to_Int.exe
-  Problem8_Str_to_Int.vcxproj -> D:\Coding\C++\Leetcode\Problem8_Str_to_Int\Debug\Problem8_Str_to_Int.pdb (Full PDB)

@@ -1,5 +1,0 @@
-﻿  test.cpp
-d:\coding\c++\leetcode\problem98_validate_bst\problem98_validate_bst\test.cpp(42): warning C4018: '<': signed/unsigned mismatch
-d:\coding\c++\leetcode\problem98_validate_bst\problem98_validate_bst\test.cpp(47): warning C4018: '<': signed/unsigned mismatch
-  Problem98_Validate_BST.vcxproj -> D:\Coding\C++\Leetcode\Problem98_Validate_BST\Debug\Problem98_Validate_BST.exe
-  Problem98_Validate_BST.vcxproj -> D:\Coding\C++\Leetcode\Problem98_Validate_BST\Debug\Problem98_Validate_BST.pdb (Full PDB)

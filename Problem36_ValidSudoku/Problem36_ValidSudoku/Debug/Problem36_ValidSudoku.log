@@ -1,8 +1,0 @@
-﻿  test.cpp
-d:\coding\c++\leetcode\problem36_validsudoku\problem36_validsudoku\test.cpp(41): warning C4091: '': ignored on left of 'char' when no variable is declared
-d:\coding\c++\leetcode\problem36_validsudoku\problem36_validsudoku\test.cpp(41): error C2143: syntax error: missing ';' before '['
-d:\coding\c++\leetcode\problem36_validsudoku\problem36_validsudoku\test.cpp(41): error C3409: empty attribute block is not allowed
-d:\coding\c++\leetcode\problem36_validsudoku\problem36_validsudoku\test.cpp(41): error C2143: syntax error: missing ']' before 'constant'
-d:\coding\c++\leetcode\problem36_validsudoku\problem36_validsudoku\test.cpp(41): error C2059: syntax error: 'constant'
-d:\coding\c++\leetcode\problem36_validsudoku\problem36_validsudoku\test.cpp(41): error C2143: syntax error: missing ';' before '{'
-d:\coding\c++\leetcode\problem36_validsudoku\problem36_validsudoku\test.cpp(41): error C2143: syntax error: missing ';' before '}'

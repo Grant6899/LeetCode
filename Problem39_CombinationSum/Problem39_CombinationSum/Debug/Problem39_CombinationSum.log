@@ -1,4 +1,0 @@
-﻿  test.cpp
-d:\coding\c++\leetcode\problem39_combinationsum\problem39_combinationsum\test.cpp(32): warning C4018: '<': signed/unsigned mismatch
-  Problem39_CombinationSum.vcxproj -> D:\Coding\C++\Leetcode\Problem39_CombinationSum\Debug\Problem39_CombinationSum.exe
-  Problem39_CombinationSum.vcxproj -> D:\Coding\C++\Leetcode\Problem39_CombinationSum\Debug\Problem39_CombinationSum.pdb (Full PDB)

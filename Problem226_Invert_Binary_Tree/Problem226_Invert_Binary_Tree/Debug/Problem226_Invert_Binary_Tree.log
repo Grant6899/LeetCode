@@ -1,5 +1,0 @@
-﻿  test.cpp
-d:\coding\c++\leetcode\problem226_invert_binary_tree\problem226_invert_binary_tree\test.cpp(36): warning C4018: '<': signed/unsigned mismatch
-d:\coding\c++\leetcode\problem226_invert_binary_tree\problem226_invert_binary_tree\test.cpp(41): warning C4018: '<': signed/unsigned mismatch
-  Problem226_Invert_Binary_Tree.vcxproj -> D:\Coding\C++\Leetcode\Problem226_Invert_Binary_Tree\Debug\Problem226_Invert_Binary_Tree.exe
-  Problem226_Invert_Binary_Tree.vcxproj -> D:\Coding\C++\Leetcode\Problem226_Invert_Binary_Tree\Debug\Problem226_Invert_Binary_Tree.pdb (Full PDB)

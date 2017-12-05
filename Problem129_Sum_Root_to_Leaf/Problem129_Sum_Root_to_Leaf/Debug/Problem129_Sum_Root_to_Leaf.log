@@ -1,5 +1,0 @@
-﻿  test.cpp
-d:\coding\c++\leetcode\problem129_sum_root_to_leaf\problem129_sum_root_to_leaf\test.cpp(53): warning C4018: '<': signed/unsigned mismatch
-d:\coding\c++\leetcode\problem129_sum_root_to_leaf\problem129_sum_root_to_leaf\test.cpp(58): warning C4018: '<': signed/unsigned mismatch
-  Problem129_Sum_Root_to_Leaf.vcxproj -> D:\Coding\C++\Leetcode\Problem129_Sum_Root_to_Leaf\Debug\Problem129_Sum_Root_to_Leaf.exe
-  Problem129_Sum_Root_to_Leaf.vcxproj -> D:\Coding\C++\Leetcode\Problem129_Sum_Root_to_Leaf\Debug\Problem129_Sum_Root_to_Leaf.pdb (Full PDB)

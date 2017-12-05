@@ -1,5 +1,0 @@
-﻿  test.cpp
-d:\coding\c++\leetcode\problem14_longest_common_prefix\problem14_longest_common_prefix\test.cpp(13): warning C4018: '<': signed/unsigned mismatch
-d:\coding\c++\leetcode\problem14_longest_common_prefix\problem14_longest_common_prefix\test.cpp(14): warning C4018: '>': signed/unsigned mismatch
-  Problem14_Longest_Common_Prefix.vcxproj -> D:\Coding\C++\Leetcode\Problem14_Longest_Common_Prefix\Debug\Problem14_Longest_Common_Prefix.exe
-  Problem14_Longest_Common_Prefix.vcxproj -> D:\Coding\C++\Leetcode\Problem14_Longest_Common_Prefix\Debug\Problem14_Longest_Common_Prefix.pdb (Full PDB)

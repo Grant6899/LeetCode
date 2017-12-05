@@ -1,4 +1,0 @@
-﻿  test.cpp
-d:\coding\c++\leetcode\problem53_maxsubarray\problem53_maxsubarray\test.cpp(12): warning C4018: '<': signed/unsigned mismatch
-  Problem53_MaxSubarray.vcxproj -> D:\Coding\C++\Leetcode\Problem53_MaxSubarray\Debug\Problem53_MaxSubarray.exe
-  Problem53_MaxSubarray.vcxproj -> D:\Coding\C++\Leetcode\Problem53_MaxSubarray\Debug\Problem53_MaxSubarray.pdb (Full PDB)

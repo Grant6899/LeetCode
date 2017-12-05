@@ -1,5 +1,0 @@
-﻿  test.cpp
-d:\coding\c++\leetcode\problem547_friend circles\problem547_friend circles\test.cpp(65): warning C4018: '<': signed/unsigned mismatch
-d:\coding\c++\leetcode\problem547_friend circles\problem547_friend circles\test.cpp(66): warning C4018: '<': signed/unsigned mismatch
-  Problem547_Friend Circles.vcxproj -> D:\Coding\C++\Leetcode\Problem547_Friend Circles\Debug\Problem547_Friend Circles.exe
-  Problem547_Friend Circles.vcxproj -> D:\Coding\C++\Leetcode\Problem547_Friend Circles\Debug\Problem547_Friend Circles.pdb (Partial PDB)

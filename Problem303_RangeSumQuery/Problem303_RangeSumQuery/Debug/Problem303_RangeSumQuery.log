@@ -1,4 +1,0 @@
-﻿  test.cpp
-d:\coding\c++\leetcode\problem303_rangesumquery\problem303_rangesumquery\test.cpp(13): warning C4018: '<': signed/unsigned mismatch
-  Problem303_RangeSumQuery.vcxproj -> D:\Coding\C++\Leetcode\Problem303_RangeSumQuery\Debug\Problem303_RangeSumQuery.exe
-  Problem303_RangeSumQuery.vcxproj -> D:\Coding\C++\Leetcode\Problem303_RangeSumQuery\Debug\Problem303_RangeSumQuery.pdb (Partial PDB)

@@ -1,8 +1,0 @@
-﻿  test.cpp
-d:\coding\c++\leetcode\problem415_addstring\problem415_addstring\test.cpp(19): warning C4018: '<': signed/unsigned mismatch
-d:\coding\c++\leetcode\problem415_addstring\problem415_addstring\test.cpp(20): warning C4018: '>=': signed/unsigned mismatch
-d:\coding\c++\leetcode\problem415_addstring\problem415_addstring\test.cpp(25): warning C4018: '>=': signed/unsigned mismatch
-d:\coding\c++\leetcode\problem415_addstring\problem415_addstring\test.cpp(30): warning C4018: '>=': signed/unsigned mismatch
-d:\coding\c++\leetcode\problem415_addstring\problem415_addstring\test.cpp(45): warning C4018: '<=': signed/unsigned mismatch
-  Problem415_AddString.vcxproj -> D:\Coding\C++\Leetcode\Problem415_AddString\Debug\Problem415_AddString.exe
-  Problem415_AddString.vcxproj -> D:\Coding\C++\Leetcode\Problem415_AddString\Debug\Problem415_AddString.pdb (Full PDB)

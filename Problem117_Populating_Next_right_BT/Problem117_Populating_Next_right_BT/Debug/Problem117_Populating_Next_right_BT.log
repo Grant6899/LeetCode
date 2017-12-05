@@ -1,7 +1,0 @@
-﻿  test.cpp
-d:\coding\c++\leetcode\problem117_populating_next_right_bt\problem117_populating_next_right_bt\test.cpp(58): warning C4018: '<': signed/unsigned mismatch
-d:\coding\c++\leetcode\problem117_populating_next_right_bt\problem117_populating_next_right_bt\test.cpp(63): warning C4018: '<': signed/unsigned mismatch
-d:\coding\c++\leetcode\problem117_populating_next_right_bt\problem117_populating_next_right_bt\test.cpp(75): warning C4018: '<': signed/unsigned mismatch
-d:\coding\c++\leetcode\problem117_populating_next_right_bt\problem117_populating_next_right_bt\test.cpp(80): warning C4018: '<': signed/unsigned mismatch
-  Problem117_Populating_Next_right_BT.vcxproj -> D:\Coding\C++\Leetcode\Problem117_Populating_Next_right_BT\Debug\Problem117_Populating_Next_right_BT.exe
-  Problem117_Populating_Next_right_BT.vcxproj -> D:\Coding\C++\Leetcode\Problem117_Populating_Next_right_BT\Debug\Problem117_Populating_Next_right_BT.pdb (Full PDB)

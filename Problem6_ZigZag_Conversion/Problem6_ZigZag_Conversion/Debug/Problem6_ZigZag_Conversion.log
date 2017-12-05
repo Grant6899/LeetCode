@@ -1,6 +1,0 @@
-﻿  test.cpp
-d:\coding\c++\leetcode\problem6_zigzag_conversion\problem6_zigzag_conversion\test.cpp(17): warning C4018: '<': signed/unsigned mismatch
-d:\coding\c++\leetcode\problem6_zigzag_conversion\problem6_zigzag_conversion\test.cpp(25): warning C4018: '<': signed/unsigned mismatch
-d:\coding\c++\leetcode\problem6_zigzag_conversion\problem6_zigzag_conversion\test.cpp(28): warning C4018: '<': signed/unsigned mismatch
-  Problem6_ZigZag_Conversion.vcxproj -> D:\Coding\C++\Leetcode\Problem6_ZigZag_Conversion\Debug\Problem6_ZigZag_Conversion.exe
-  Problem6_ZigZag_Conversion.vcxproj -> D:\Coding\C++\Leetcode\Problem6_ZigZag_Conversion\Debug\Problem6_ZigZag_Conversion.pdb (Full PDB)

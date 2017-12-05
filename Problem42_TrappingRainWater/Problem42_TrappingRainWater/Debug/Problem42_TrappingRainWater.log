@@ -1,6 +1,0 @@
-﻿  test.cpp
-d:\coding\c++\leetcode\problem42_trappingrainwater\problem42_trappingrainwater\test.cpp(16): warning C4018: '<': signed/unsigned mismatch
-d:\coding\c++\leetcode\problem42_trappingrainwater\problem42_trappingrainwater\test.cpp(24): warning C4018: '<': signed/unsigned mismatch
-d:\coding\c++\leetcode\problem42_trappingrainwater\problem42_trappingrainwater\test.cpp(35): warning C4018: '<': signed/unsigned mismatch
-  Problem42_TrappingRainWater.vcxproj -> D:\Coding\C++\Leetcode\Problem42_TrappingRainWater\Debug\Problem42_TrappingRainWater.exe
-  Problem42_TrappingRainWater.vcxproj -> D:\Coding\C++\Leetcode\Problem42_TrappingRainWater\Debug\Problem42_TrappingRainWater.pdb (Full PDB)

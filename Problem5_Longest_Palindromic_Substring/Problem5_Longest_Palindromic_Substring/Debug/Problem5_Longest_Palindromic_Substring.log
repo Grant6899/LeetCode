@@ -1,6 +1,0 @@
-﻿  test.cpp
-d:\coding\c++\leetcode\problem5_longest_palindromic_substring\problem5_longest_palindromic_substring\test.cpp(14): warning C4018: '<=': signed/unsigned mismatch
-d:\coding\c++\leetcode\problem5_longest_palindromic_substring\problem5_longest_palindromic_substring\test.cpp(29): warning C4018: '<': signed/unsigned mismatch
-d:\coding\c++\leetcode\problem5_longest_palindromic_substring\problem5_longest_palindromic_substring\test.cpp(39): warning C4018: '<': signed/unsigned mismatch
-  Problem5_Longest_Palindromic_Substring.vcxproj -> D:\Coding\C++\Leetcode\Problem5_Longest_Palindromic_Substring\Debug\Problem5_Longest_Palindromic_Substring.exe
-  Problem5_Longest_Palindromic_Substring.vcxproj -> D:\Coding\C++\Leetcode\Problem5_Longest_Palindromic_Substring\Debug\Problem5_Longest_Palindromic_Substring.pdb (Full PDB)

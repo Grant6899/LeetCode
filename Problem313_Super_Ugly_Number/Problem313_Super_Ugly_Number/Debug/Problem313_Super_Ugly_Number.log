@@ -1,7 +1,0 @@
-﻿  test.cpp
-d:\coding\c++\leetcode\problem313_super_ugly_number\problem313_super_ugly_number\test.cpp(13): warning C4018: '<': signed/unsigned mismatch
-d:\coding\c++\leetcode\problem313_super_ugly_number\problem313_super_ugly_number\test.cpp(15): warning C4018: '<': signed/unsigned mismatch
-d:\coding\c++\leetcode\problem313_super_ugly_number\problem313_super_ugly_number\test.cpp(20): warning C4018: '<': signed/unsigned mismatch
-d:\coding\c++\leetcode\problem313_super_ugly_number\problem313_super_ugly_number\test.cpp(25): warning C4018: '<': signed/unsigned mismatch
-  Problem313_Super_Ugly_Number.vcxproj -> D:\Coding\C++\Leetcode\Problem313_Super_Ugly_Number\Debug\Problem313_Super_Ugly_Number.exe
-  Problem313_Super_Ugly_Number.vcxproj -> D:\Coding\C++\Leetcode\Problem313_Super_Ugly_Number\Debug\Problem313_Super_Ugly_Number.pdb (Full PDB)

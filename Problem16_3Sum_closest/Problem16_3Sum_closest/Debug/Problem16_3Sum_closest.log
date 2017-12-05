@@ -1,4 +1,0 @@
-﻿  test.cpp
-d:\coding\c++\leetcode\problem16_3sum_closest\problem16_3sum_closest\test.cpp(21): warning C4018: '<': signed/unsigned mismatch
-  Problem16_3Sum_closest.vcxproj -> D:\Coding\C++\Leetcode\Problem16_3Sum_closest\Debug\Problem16_3Sum_closest.exe
-  Problem16_3Sum_closest.vcxproj -> D:\Coding\C++\Leetcode\Problem16_3Sum_closest\Debug\Problem16_3Sum_closest.pdb (Full PDB)

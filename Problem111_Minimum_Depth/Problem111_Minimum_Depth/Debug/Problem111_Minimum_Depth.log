@@ -1,5 +1,0 @@
-﻿  test.cpp
-d:\coding\c++\leetcode\problem111_minimum_depth\problem111_minimum_depth\test.cpp(35): warning C4018: '<': signed/unsigned mismatch
-d:\coding\c++\leetcode\problem111_minimum_depth\problem111_minimum_depth\test.cpp(40): warning C4018: '<': signed/unsigned mismatch
-  Problem111_Minimum_Depth.vcxproj -> D:\Coding\C++\Leetcode\Problem111_Minimum_Depth\Debug\Problem111_Minimum_Depth.exe
-  Problem111_Minimum_Depth.vcxproj -> D:\Coding\C++\Leetcode\Problem111_Minimum_Depth\Debug\Problem111_Minimum_Depth.pdb (Full PDB)

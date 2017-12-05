@@ -1,4 +1,0 @@
-﻿  test.cpp
-d:\coding\c++\leetcode\problem35_insert_position\problem35_insert_position\test.cpp(16): warning C4018: '<': signed/unsigned mismatch
-  Problem35_Insert_Position.vcxproj -> D:\Coding\C++\Leetcode\Problem35_Insert_Position\Debug\Problem35_Insert_Position.exe
-  Problem35_Insert_Position.vcxproj -> D:\Coding\C++\Leetcode\Problem35_Insert_Position\Debug\Problem35_Insert_Position.pdb (Full PDB)

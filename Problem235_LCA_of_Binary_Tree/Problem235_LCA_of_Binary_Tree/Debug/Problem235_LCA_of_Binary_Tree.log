@@ -1,5 +1,0 @@
-﻿  test.cpp
-d:\coding\c++\leetcode\problem235_lca_of_binary_tree\problem235_lca_of_binary_tree\test.cpp(35): warning C4018: '<': signed/unsigned mismatch
-d:\coding\c++\leetcode\problem235_lca_of_binary_tree\problem235_lca_of_binary_tree\test.cpp(40): warning C4018: '<': signed/unsigned mismatch
-  Problem235_LCA_of_Binary_Tree.vcxproj -> D:\Coding\C++\Leetcode\Problem235_LCA_of_Binary_Tree\Debug\Problem235_LCA_of_Binary_Tree.exe
-  Problem235_LCA_of_Binary_Tree.vcxproj -> D:\Coding\C++\Leetcode\Problem235_LCA_of_Binary_Tree\Debug\Problem235_LCA_of_Binary_Tree.pdb (Full PDB)

@@ -1,4 +1,0 @@
-﻿  test.cpp
-d:\coding\c++\leetcode\problem46_permutation\problem46_permutation\test.cpp(24): warning C4018: '<': signed/unsigned mismatch
-  Problem46_Permutation.vcxproj -> D:\Coding\C++\Leetcode\Problem46_Permutation\Debug\Problem46_Permutation.exe
-  Problem46_Permutation.vcxproj -> D:\Coding\C++\Leetcode\Problem46_Permutation\Debug\Problem46_Permutation.pdb (Full PDB)

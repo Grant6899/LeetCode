@@ -1,5 +1,0 @@
-﻿  test.cpp
-d:\coding\c++\leetcode\problem28_implement_strstr\problem28_implement_strstr\test.cpp(18): warning C4018: '<': signed/unsigned mismatch
-d:\coding\c++\leetcode\problem28_implement_strstr\problem28_implement_strstr\test.cpp(20): warning C4018: '<': signed/unsigned mismatch
-  Problem28_Implement_strStr.vcxproj -> D:\Coding\C++\Leetcode\Problem28_Implement_strStr\Debug\Problem28_Implement_strStr.exe
-  Problem28_Implement_strStr.vcxproj -> D:\Coding\C++\Leetcode\Problem28_Implement_strStr\Debug\Problem28_Implement_strStr.pdb (Full PDB)

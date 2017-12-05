@@ -1,5 +1,0 @@
-﻿  test.cpp
-d:\coding\c++\leetcode\problem508_most_frequent_subtree_sum\problem508_most_frequent_subtree_sum\test.cpp(61): warning C4018: '<': signed/unsigned mismatch
-d:\coding\c++\leetcode\problem508_most_frequent_subtree_sum\problem508_most_frequent_subtree_sum\test.cpp(66): warning C4018: '<': signed/unsigned mismatch
-  Problem508_Most_Frequent_Subtree_Sum.vcxproj -> D:\Coding\C++\Leetcode\Problem508_Most_Frequent_Subtree_Sum\Debug\Problem508_Most_Frequent_Subtree_Sum.exe
-  Problem508_Most_Frequent_Subtree_Sum.vcxproj -> D:\Coding\C++\Leetcode\Problem508_Most_Frequent_Subtree_Sum\Debug\Problem508_Most_Frequent_Subtree_Sum.pdb (Full PDB)

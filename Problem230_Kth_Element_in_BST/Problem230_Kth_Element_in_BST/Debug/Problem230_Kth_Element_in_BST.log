@@ -1,5 +1,0 @@
-﻿  test.cpp
-d:\coding\c++\leetcode\problem230_kth_element_in_bst\problem230_kth_element_in_bst\test.cpp(43): warning C4018: '<': signed/unsigned mismatch
-d:\coding\c++\leetcode\problem230_kth_element_in_bst\problem230_kth_element_in_bst\test.cpp(48): warning C4018: '<': signed/unsigned mismatch
-  Problem230_Kth_Element_in_BST.vcxproj -> D:\Coding\C++\Leetcode\Problem230_Kth_Element_in_BST\Debug\Problem230_Kth_Element_in_BST.exe
-  Problem230_Kth_Element_in_BST.vcxproj -> D:\Coding\C++\Leetcode\Problem230_Kth_Element_in_BST\Debug\Problem230_Kth_Element_in_BST.pdb (Full PDB)

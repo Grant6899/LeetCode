@@ -1,6 +1,0 @@
-﻿  test.cpp
-d:\coding\c++\leetcode\problem31_next_permutation\problem31_next_permutation\test.cpp(25): warning C4018: '<': signed/unsigned mismatch
-d:\coding\c++\leetcode\problem31_next_permutation\problem31_next_permutation\test.cpp(37): warning C4018: '<': signed/unsigned mismatch
-d:\coding\c++\leetcode\problem31_next_permutation\problem31_next_permutation\test.cpp(38): warning C4018: '<': signed/unsigned mismatch
-  Problem31_Next_Permutation.vcxproj -> D:\Coding\C++\Leetcode\Problem31_Next_Permutation\Debug\Problem31_Next_Permutation.exe
-  Problem31_Next_Permutation.vcxproj -> D:\Coding\C++\Leetcode\Problem31_Next_Permutation\Debug\Problem31_Next_Permutation.pdb (Full PDB)

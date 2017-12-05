@@ -1,5 +1,0 @@
-﻿  test.cpp
-d:\coding\c++\leetcode\problem114_flatten_binary_tree\problem114_flatten_binary_tree\test.cpp(45): warning C4018: '<': signed/unsigned mismatch
-d:\coding\c++\leetcode\problem114_flatten_binary_tree\problem114_flatten_binary_tree\test.cpp(50): warning C4018: '<': signed/unsigned mismatch
-  Problem114_Flatten_Binary_Tree.vcxproj -> D:\Coding\C++\Leetcode\Problem114_Flatten_Binary_Tree\Debug\Problem114_Flatten_Binary_Tree.exe
-  Problem114_Flatten_Binary_Tree.vcxproj -> D:\Coding\C++\Leetcode\Problem114_Flatten_Binary_Tree\Debug\Problem114_Flatten_Binary_Tree.pdb (Full PDB)

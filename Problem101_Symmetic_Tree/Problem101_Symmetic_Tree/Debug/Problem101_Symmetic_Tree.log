@@ -1,5 +1,0 @@
-﻿  test.cpp
-d:\coding\c++\leetcode\problem101_symmetic_tree\problem101_symmetic_tree\test.cpp(42): warning C4018: '<': signed/unsigned mismatch
-d:\coding\c++\leetcode\problem101_symmetic_tree\problem101_symmetic_tree\test.cpp(47): warning C4018: '<': signed/unsigned mismatch
-  Problem101_Symmetic_Tree.vcxproj -> D:\Coding\C++\Leetcode\Problem101_Symmetic_Tree\Debug\Problem101_Symmetic_Tree.exe
-  Problem101_Symmetic_Tree.vcxproj -> D:\Coding\C++\Leetcode\Problem101_Symmetic_Tree\Debug\Problem101_Symmetic_Tree.pdb (Full PDB)

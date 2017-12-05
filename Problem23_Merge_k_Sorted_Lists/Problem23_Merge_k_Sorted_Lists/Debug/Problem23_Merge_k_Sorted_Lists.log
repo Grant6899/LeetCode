@@ -1,4 +1,0 @@
-﻿  test.cpp
-d:\coding\c++\leetcode\problem23_merge_k_sorted_lists\problem23_merge_k_sorted_lists\test.cpp(102): warning C4018: '<': signed/unsigned mismatch
-  Problem23_Merge_k_Sorted_Lists.vcxproj -> D:\Coding\C++\Leetcode\Problem23_Merge_k_Sorted_Lists\Debug\Problem23_Merge_k_Sorted_Lists.exe
-  Problem23_Merge_k_Sorted_Lists.vcxproj -> D:\Coding\C++\Leetcode\Problem23_Merge_k_Sorted_Lists\Debug\Problem23_Merge_k_Sorted_Lists.pdb (Full PDB)

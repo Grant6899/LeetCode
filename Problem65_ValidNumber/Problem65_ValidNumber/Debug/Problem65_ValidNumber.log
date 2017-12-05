@@ -1,5 +1,0 @@
-﻿  test.cpp
-d:\coding\c++\leetcode\problem65_validnumber\problem65_validnumber\test.cpp(56): warning C4018: '<': signed/unsigned mismatch
-d:\coding\c++\leetcode\problem65_validnumber\problem65_validnumber\test.cpp(71): warning C4018: '<': signed/unsigned mismatch
-  Problem65_ValidNumber.vcxproj -> D:\Coding\C++\Leetcode\Problem65_ValidNumber\Debug\Problem65_ValidNumber.exe
-  Problem65_ValidNumber.vcxproj -> D:\Coding\C++\Leetcode\Problem65_ValidNumber\Debug\Problem65_ValidNumber.pdb (Full PDB)

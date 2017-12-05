@@ -313,3 +313,7 @@ OpenCover/
 
 # Azure Stream Analytics local run output 
 ASALocalRun/
+
+#ignore *.o and *.dSYM for UNIX-like platform
+*.dSYM
+*.o

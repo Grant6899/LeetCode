@@ -43,11 +43,12 @@ public:
             return false;
 
         ListNode *p1 = head->next, *p2 = head;
-        while(p1 != NULL){
-            if (p1->next == p2)
+        while(p1 != NULL && p1->next != NULL){
+            p1 = p1->next;
+            if (p1 == p2)
                 return true;
-            ++p1;
-            ++p2;
+            p1 = p1->next;
+            p2 = p2->next;
         }
         
         return false;     

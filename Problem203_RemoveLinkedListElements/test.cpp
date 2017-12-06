@@ -2,7 +2,7 @@
 	> File Name: test.cpp
 	> Author: Grant Liu
 	> Mail: ymliu6899@gmail.com
-	> Created Time: Tue Dec  5 20:43:50 2017
+	> Created Time: Wed Dec  6 12:02:52 2017
  ************************************************************************/
 
 #include<iostream>
@@ -38,9 +38,21 @@ void printLinkedList(ListNode* head){
 
 class Solution {
 public:
-    void deleteNode(ListNode* node) {
-        // note that it's based on the assumption that we are not deleting the tail node.
-        *node = *(node->next);
+    ListNode *removeElements(ListNode* head, int val) {
+        ListNode **hptr = &head;
+
+        while(*hptr != NULL){
+            if ((*hptr)->val == val){
+                    // change the pointer itself saved in ListNode, make the pointer pointed by hptr point to next Node's next Node
+                    *hptr = (*hptr)->next;
+            }
+            else{
+                // make hptr point to next pointer saved in ListNode
+                hptr = &(*hptr)->next;
+            }
+           
+        }
+        return head;
     }
 };
 
@@ -48,12 +60,15 @@ public:
 int main(){
 
     Solution s;
-    vector<int> tmp { 1, 2, 3, 4 };
+    vector<int> tmp { 1, 2, 6, 3, 4, 5, 6 };
 
     ListNode* h = createLinkedList(tmp);
 
     printLinkedList(h);
-    s.deleteNode(h->next->next);
-    printLinkedList(h);
+    ListNode* h_after = s.removeElements(h, 6);
+    printLinkedList(h_after);
+
+    return 0;
 }
+
 

@@ -2,7 +2,7 @@
 	> File Name: test.cpp
 	> Author: Grant Liu
 	> Mail: ymliu6899@gmail.com
-	> Created Time: Tue Dec  5 20:43:50 2017
+	> Created Time: Wed Dec  6 14:28:53 2017
  ************************************************************************/
 
 #include<iostream>
@@ -38,22 +38,52 @@ void printLinkedList(ListNode* head){
 
 class Solution {
 public:
-    void deleteNode(ListNode* node) {
-        // note that it's based on the assumption that we are not deleting the tail node.
-        *node = *(node->next);
+    int size(ListNode* head){
+        int len = 0;
+        while(head != NULL){
+            head = head->next;
+            ++len;
+        }
+        return len;    
+    }
+
+    ListNode* rotateRight(ListNode* head, int k) {
+        if (head == NULL)
+            return NULL;
+        int len = size(head);
+        k = k % len;
+
+        // connect tail and head of the List
+        ListNode** endptr = &head;
+        while((*endptr)->next != NULL)
+            endptr = &(*endptr)->next;
+        ListNode* end = *endptr;
+        (*endptr)->next = head;
+        
+        // find new end and start nodes
+        int move = len - k;
+       
+        for(;move>0;--move){
+            end = end->next;
+            head = head->next;
+        }
+        
+        end->next = NULL;
+
+        return head;
     }
 };
-
 
 int main(){
 
     Solution s;
-    vector<int> tmp { 1, 2, 3, 4 };
+    vector<int> tmp { 1 };
 
     ListNode* h = createLinkedList(tmp);
 
     printLinkedList(h);
-    s.deleteNode(h->next->next);
-    printLinkedList(h);
-}
+    ListNode* h_after = s.rotateRight(h, 1);
+    printLinkedList(h_after);
 
+    return 0;
+}

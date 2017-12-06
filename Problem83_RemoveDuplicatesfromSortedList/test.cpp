@@ -2,7 +2,7 @@
 	> File Name: test.cpp
 	> Author: Grant Liu
 	> Mail: ymliu6899@gmail.com
-	> Created Time: Tue Dec  5 20:43:50 2017
+	> Created Time: Wed Dec  6 11:46:04 2017
  ************************************************************************/
 
 #include<iostream>
@@ -38,22 +38,34 @@ void printLinkedList(ListNode* head){
 
 class Solution {
 public:
-    void deleteNode(ListNode* node) {
-        // note that it's based on the assumption that we are not deleting the tail node.
-        *node = *(node->next);
+    ListNode* deleteDuplicates(ListNode* head) {
+        ListNode *st = head;
+        while(st!=NULL && st->next !=NULL){
+            if (st->val == st->next->val){
+                ListNode *ed = st->next;
+                while(ed != NULL && ed->val == st->val)
+                    ed = ed->next;
+                st->next = ed;
+                st = ed;
+            }
+            else
+                st = st->next;
+        }
+    return head;        
     }
 };
-
 
 int main(){
 
     Solution s;
-    vector<int> tmp { 1, 2, 3, 4 };
+    vector<int> tmp { 1, 2, 2, 3, 4,4,4,4 };
+
 
     ListNode* h = createLinkedList(tmp);
+    printLinkedList(h);
+    s.deleteDuplicates(h);
+    printLinkedList(h);
 
-    printLinkedList(h);
-    s.deleteNode(h->next->next);
-    printLinkedList(h);
+    return 0;
+
 }
-

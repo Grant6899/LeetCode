@@ -36,7 +36,14 @@ void printLinkedList(ListNode* head){
     std::cout << std::endl;
 }
 
-
+class Solution {
+public:
+    void deleteNode(ListNode* node) {
+        ListNode* deleted = node;
+        node = node->next;
+        delete deleted;
+    }
+};
 
 
 int main(){
@@ -45,8 +52,9 @@ int main(){
     vector<int> tmp { 1, 2, 3, 4 };
 
     ListNode* h = createLinkedList(tmp);
-    printLinkedList(h);
-    std::cout << s.hasCycle(h) << std::endl;
 
+    printLinkedList(h);
+    s.deleteNode(h->next->next);
+    printLinkedList(h);
 }
 

@@ -65,7 +65,7 @@ int main(){
     ListNode* h = createLinkedList(tmp);
 
     printLinkedList(h);
-    ListNode* h_after = s.removeElements(h, 6);
+    ListNode* h_after = s.removeElements(h, 1);
     printLinkedList(h_after);
 
     return 0;

@@ -2,7 +2,7 @@
 	> File Name: test.cpp
 	> Author: Grant Liu
 	> Mail: ymliu6899@gmail.com
-	> Created Time: Wed Dec  6 23:25:18 2017
+	> Created Time: Thu Dec  7 00:45:22 2017
  ************************************************************************/
 
 #include<iostream>
@@ -38,32 +38,34 @@ void printLinkedList(ListNode* head){
 
 class Solution {
 public:
-    ListNode* deleteDuplicates(ListNode* head) {
-        if (!head) return 0;
-        if (!head->next) return head;
-        
-        int val = head->val;
-        ListNode* p = head->next;
-        
-        if (p->val != val) {
-            head->next = deleteDuplicates(p);
-            return head;
-        } else {
-            while (p && p->val == val) p = p->next;
-            return deleteDuplicates(p);
+    ListNode* partition(ListNode* head, int x) {
+        ListNode* less = new ListNode(0), *more = new ListNode(0);
+        ListNode* less_it = less, *more_it = more;
+        while(head!=NULL){
+            if (head->val < x){
+                less_it->next = new ListNode(head->val);
+                less_it = less_it->next;
+            }
+            else{
+                more_it->next = new ListNode(head->val);
+                more_it = more_it->next;
+            }
+            head = head->next;
         }
+        less_it->next = more->next;
+        return less->next;
     }
 };
 
 int main(){
 
     Solution s;
-    vector<int> tmp { 1, 2, 2, 3, 3, 5, 6, 6 };
+    vector<int> tmp { 1,4,3,2,5,2 };
 
     ListNode* h = createLinkedList(tmp);
 
     printLinkedList(h);
-    ListNode* h_after = s.deleteDuplicates(h);
+    ListNode* h_after = s.partition(h, 3);
     printLinkedList(h_after);
 
     return 0;

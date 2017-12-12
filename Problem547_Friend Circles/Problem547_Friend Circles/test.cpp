@@ -7,7 +7,7 @@ using namespace std;
 
 class QuickUnion {
 private:
-	vector<int> id, sz;
+	vector<int> id, sz; // id indicates the set to which the element belongs, sz indicates the height of the tree.
 	int cnt;
 
 	int root(int i) {

@@ -7,6 +7,7 @@
 
 #include<iostream>
 #include<unordered_map>
+#include<map>
 #include<utility>
 #include<algorithm>
 #include<vector>
@@ -30,7 +31,7 @@ public:
         int result = 0;
         for (int i = 0; i < points.size() - 1; ++i){
             
-            unordered_map<pair<int, int>, int> book;
+            map<pair<int, int>, int> book;
             int vertical = 0, dup = 0, current_max = 0;
             for (int j = i + 1; j < points.size(); ++ j){
                 if (points[i].x == points[j].x){

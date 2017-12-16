@@ -25,7 +25,7 @@ public:
 
     vector<string> findWords(vector<vector<char>>& board, vector<string>& words) {
         vector<string> reval;
-
+        map = board;
         for (int i = 0; i < map.size(); ++i)
 			for (int j = 0; j < map[0].size(); ++j) {
 				if (st_location.find(map[i][j]) == st_location.end()) {
@@ -42,6 +42,9 @@ public:
                 reval.push_back(*it);        
             }
         }        
+
+        sort( reval.begin(), reval.end() );
+        reval.erase( unique( reval.begin(), reval.end() ), reval.end() );
 
         return reval;
     }

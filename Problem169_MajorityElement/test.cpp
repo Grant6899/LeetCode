@@ -23,7 +23,7 @@ public:
 };
 
 int main(){
-    vector<int> nums {1, 2, 3, 4, 4,4};
+    vector<int> nums {1, 2, 3, 4, 4, 4, 4};
     Solution s;
     cout << s.majorityElement(nums) << endl;
     return 0;

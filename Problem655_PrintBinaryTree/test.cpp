@@ -27,7 +27,10 @@ private:
     vector<vector<string>> result;
 public:
     vector<vector<string>> printTree(TreeNode* root) {
-        fill(root, 0, 0, pow(2, deep(root)) - 1);
+        int depth = deep(root);
+        int width = pow(2, deep(root)) - 1;
+        result = vector<vector<string>>(depth, vector<string>(width, ""));
+        fill(root, 0, 0, width);
         return result;
     }
     
@@ -68,7 +71,7 @@ TreeNode* createTree(const vector<int>& src, int i) {
 int main() {
 	Solution s;
 
-	vector<int> src{ 5,4,5,1,1,-1,5};
+	vector<int> src{ 1,2,3,-1,4,-1,-1};
 
 	TreeNode* root = createTree(src, 0);
 
@@ -76,7 +79,7 @@ int main() {
     
     for(auto it = ans.begin(); it < ans.end(); ++it){
         for(auto jt = (*it).begin(); jt < (*it).end(); ++jt){
-            cout << *jt << ',';
+            cout << *jt << '|';
         }
         cout << endl;
     }

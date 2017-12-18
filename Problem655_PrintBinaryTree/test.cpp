@@ -43,7 +43,7 @@ public:
     void fill(TreeNode* root, int level, int l, int r){
         if(root == NULL)
             return;
-        int mid = (l + (r - l)) / 2;
+        int mid = l + (r - l) / 2;
         result[level][mid] = to_string(root->val);
         fill(root->left, level + 1, l, mid - 1);
         fill(root->right, level + 1, mid + 1, r);

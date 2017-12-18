@@ -13,15 +13,15 @@ using namespace std;
 class Solution {
 public:
     int countSegments(string s) {
-        int result = 0; 
-        for(auto it = s.begin(); it < s.end(); ++it){
-            if(*it == ' '){
-                while(*it == ' ')
+        int result = 0, it = 0; 
+        while(it < s.size()){
+            if(s[it] == ' '){
+                while(it < s.size() && s[it] == ' ')
                     ++it;
             }
             else{
                 ++result;
-                while(*it != ' ')
+                while(it < s.size() && s[it] != ' ')
                     ++it;
             }
         }
@@ -31,6 +31,6 @@ public:
 
 int main(){
     Solution s;
-    cout << s.countSegments("Hello, My name is Grant.") << endl;
+    cout << s.countSegments("   Hello, My name is Grant.") << endl;
     return 0;
 }

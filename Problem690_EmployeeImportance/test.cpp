@@ -7,9 +7,9 @@
 
 #include<iostream>
 #include<vector>
+#include<map>
 
 using namespace std;
-
 
 // Employee info
 class Employee {
@@ -25,12 +25,23 @@ public:
 };
 
 class Solution {
+private:
+map<int, int> mapping;
+
 public:
     int getImportance(vector<Employee*> employees, int id) {
-        auto ptr = employees[id];
+        for(auto it = employees.begin(); it < employees.end(); ++it){
+            int temp_id = it->id;
+            mapping[temp_id] = it - employees.begin(); 
+        }
+        getImportance1(employees, id);
+    }
+
+    int getImportance1(vector<Employee*> employees, int id) {
+        auto ptr = employees[mapping[id]];
         int result = 0;
         for(auto it = ptr->subordinates.begin(); it < ptr->subordinates.end(); ++it){
-            result+= getImportance(employees, it - ptr->subordinates.begin());
+            result+= getImportance1(employees, *it);
         }
         result+=ptr->importance;
         return result;

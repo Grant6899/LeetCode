@@ -31,10 +31,9 @@ map<int, int> mapping;
 public:
     int getImportance(vector<Employee*> employees, int id) {
         for(auto it = employees.begin(); it < employees.end(); ++it){
-            int temp_id = it->id;
-            mapping[temp_id] = it - employees.begin(); 
+            mapping[(*it)->id] = it - employees.begin(); 
         }
-        getImportance1(employees, id);
+        return getImportance1(employees, id);
     }
 
     int getImportance1(vector<Employee*> employees, int id) {

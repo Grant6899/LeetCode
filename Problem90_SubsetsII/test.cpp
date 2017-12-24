@@ -36,8 +36,8 @@ int main(){
     vector<int> vec {1, 2, 2};
     auto ans = s.subsetsWithDup(vec);
 
-    for(int i = 0; ans.size();++i){
-        for(int j = 0; ans[i].size(); ++j)
+    for(int i = 0; i < ans.size();++i){
+        for(int j = 0; j < ans[i].size(); ++j)
             cout << ans[i][j] << ",";
         cout << endl;
     }

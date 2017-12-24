@@ -16,7 +16,7 @@ public:
         if(s.size() == 0 || s[0] == '0')
             return 0;
         
-        if(s[0] != '0')
+        if(s.size() == 1)
             return 1;
 
         dp[0] = dp[1] = 1;

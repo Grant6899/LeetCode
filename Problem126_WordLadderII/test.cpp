@@ -2,46 +2,48 @@
 	> File Name: test.cpp
 	> Author: Grant Liu
 	> Mail: ymliu6899@gmail.com
-	> Created Time: Mon Dec 25 11:47:38 2017
+	> Created Time: Mon Dec 25 12:31:21 2017
  ************************************************************************/
 
 #include<iostream>
-#include<unordered_set>
 #include<vector>
+#include<set>
 using namespace std;
 
 class Solution {
 public:
-    int ladderLength(string beginWord, string endWord, vector<string>& wordList) {
+    int findLadders(string beginWord, string endWord, vector<string>& wordList) {
+        vector<vector<string>> result;
         unordered_set<string> wordDic;
         for (auto it = wordList.begin(); it < wordList.end(); ++it)
             wordDic.insert(*it);
 
         if (wordDic.find(endWord) == wordDic.end())
-            return 0;
+            return result;
 
-        int step = 1;
         vector<string> current = { beginWord };
 
-        while (!current.empty()) {
-            vector<string> temp;
-            step++;
-            for (auto it = current.begin(); it < current.end(); ++it) {
-                for (auto jt = wordDic.begin(); jt != wordDic.end();) {
-                    if (isNeighbor(*it, *jt)) {
-                        if (*jt == endWord)
-                            return step;
-                        temp.push_back(*jt);
-                        jt = wordDic.erase(jt);
-                    }
-                    else
-                        ++jt;
-                }
-            }
-            current = temp;
-        }
         return 0;
     }
+
+    void findNext(const string& target, vector<string>& current, set<string>& wordDic){
+        if(current.back() == target){
+            
+        }
+
+        for(auto it = wordDic.begin(); it != wordDic.end();){
+            if(isNeighbor(current.back(), *it)){
+                auto temp = *it;
+                current.push_back(*it);
+                it = wordDic.erase(it);
+                findNext(current, wordDic);
+                wordDic.insert(temp);
+                current.pop_back();
+            }
+        }
+    }
+
+
 
     bool isNeighbor(string s1, string s2) {
         int count = 0;
@@ -60,10 +62,10 @@ public:
 
 };
 
-
 int main(){
     vector<string> strList{ "hot","dot","dog","lot","log","cog" };
     Solution s;
-    cout << s.ladderLength("hit", "cog", strList) << endl;
+    cout << s.findLadders("hit", "cog", strList) << endl;
     return 0;
 }
+

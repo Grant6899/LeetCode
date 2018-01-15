@@ -20,6 +20,7 @@ public:
     void push(int x) {
         pushHelper(x);
     }
+    
     void pushHelper(int x){
         if(_data.size()==0){
             _data.push(x);

@@ -47,32 +47,31 @@ public:
             result = insert(result, head->val);
             head = head-> next;
         }
+
         return result;
     }
 
-    ListNode* insert(ListNode* list, int newval){
+    ListNode* insert(ListNode* head, int newval){
         ListNode *tmp = new ListNode(newval);
 
-        if (list == NULL)
+        if (head == NULL)
             return tmp;
-        else if (newval < list->val){
-            *tmp->next = *list;
+        else if (newval <= head->val){
+            tmp->next = head;
             return tmp;
         }
         else{
-            ListNode* ptr = list;
+            ListNode* ptr = head, *prev = new ListNode(0);
+            prev->next = head;
+
             while(ptr != NULL && newval > ptr->val){
                 ptr = ptr->next;
+                prev = prev->next;
             }
-
-            *ptr->next = *tmp;
-           return list;
+            prev->next = tmp;
+            tmp->next = ptr;
+            return head;
         }
-
-            
-
-       
-
     }
 };
 

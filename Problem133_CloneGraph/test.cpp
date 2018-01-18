@@ -43,8 +43,7 @@ public:
                     map[current[i]] = tmp;
                     created.insert(tmp->label);
                     for(int j = 0; j < current[i]->neighbors.size(); ++j)
-                        if(created.find(current[i]->neighbors[j]->label) == created.end())
-                            current_neighbors.push_back(current[i]->neighbors[j]);
+                        current_neighbors.push_back(current[i]->neighbors[j]);
 
                 }
             }
@@ -62,8 +61,7 @@ public:
                     int j_max =  current[i]->neighbors.size();
                     for(int j = 0; j < current[i]->neighbors.size(); ++j){
                         map[current[i]]->neighbors.push_back(map[current[i]->neighbors[j]]);
-                        if(created.find(current[i]->neighbors[j]->label) != created.end())
-                            current_neighbors.push_back(current[i]->neighbors[j]);
+                        current_neighbors.push_back(current[i]->neighbors[j]);
                     }
                 }
             }

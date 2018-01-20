@@ -19,7 +19,11 @@ public:
 	void find(int next) {
 		if (current.size() == target) {
 			result.push_back(current);
-			return;
+	        
+            for(int ele : current)
+                cout << ele << " ";
+            cout << endl;
+            return;
 		}
 
 		for (int i = 0; i< candidates.size(); i++)
@@ -47,11 +51,9 @@ int main() {
 
 	Solution s;
 
-	vector<int> map{ 1,1, 2 };
+	vector<int> map{ 1, 2, 2, 2, 3 };
 
 	auto ans = s.permuteUnique(map);
-
-	//std::cout << ans << std::endl;
 
 	return 0;
 }

@@ -6,6 +6,8 @@
  ************************************************************************/
 
 #include<iostream>
+#include<stack>
+#include<vector>
 using namespace std;
 
 struct TreeNode {
@@ -36,41 +38,45 @@ TreeNode* createTree(const vector<int>& src, int i) {
 class BSTIterator {
 public:
     BSTIterator(TreeNode *root) {
-        _root = root;
+        findLeft(root);
     }
 
     /** @return whether we have a next smallest number */
     bool hasNext() {
-        
+        return !_data.empty();
     }
 
     /** @return the next smallest number */
     int next() {
-
+        TreeNode* temp = _data.top();
+        _data.pop();
+        if(temp->right)
+            findLeft(temp->right);
+        return temp->val;
     }
-
-    int next(TreeNode* root){
-        if(!root){
-            
-
-        }
-    }
-
-
 
 private:
-    TreeNode* _root;
+    stack<TreeNode*> _data;
+
+    void findLeft(TreeNode* root){
+        while(root){
+            _data.push(root);
+            root = root->left;
+        }
+    }
 };
 
 
 int main() {
-	Solution s;
 
 	vector<int> src{ 1,2,2,-1, 3,-1,3 };
 
 	TreeNode* root = createTree(src, 0);
+    
+    BSTIterator bst_it = BSTIterator(root);
 
-	auto ans = s.isSymmetric(root);
-
+    while(bst_it.hasNext()){
+        cout << bst_it.next() << ' ';
+    }
 	return 0;
 }

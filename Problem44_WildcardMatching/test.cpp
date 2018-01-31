@@ -43,6 +43,6 @@ public:
 int main(){
     Solution s;
 
-    cout << s.isMatch("admbccd", "a*ba*c?d") << endl;
+    cout << s.isMatch("aa", "*") << endl;
     return 0;
 }

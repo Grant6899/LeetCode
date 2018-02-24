@@ -18,7 +18,7 @@ struct Edge{
     Edge(int _src, int _dst, int _weight) : src(_src), dst(_dst), weight(_weight) {}
 };
 
-vector<Edge> Prime(vector<vector<int>>& map, vector<vector<int>>& paths){
+vector<Edge> Prim(vector<vector<int>>& map, vector<vector<int>>& paths){
     unordered_set<int> visited{3};
     vector<Edge> res;
     int n = map.size();
@@ -63,7 +63,7 @@ int main(){
         map[p[1]][p[0]] = p[2];
     }  
 
-    auto res = Prime(map, paths);
+    auto res = Prim(map, paths);
     
     int total_len = 0;
     for(auto e : res){

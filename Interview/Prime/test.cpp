@@ -33,10 +33,10 @@ vector<Edge> Prime(vector<vector<int>>& map, vector<vector<int>>& paths){
             for(int i = 0; i < map.size(); ++i)
                 if( !visited.count(i) && map[*it][i] != INT_MAX)
                     pq.push(Edge(*it, i, map[*it][i]));
-
-            res.push_back(pq.top());
-            visited.insert(pq.top().dst);
-        } 
+        }
+        
+        res.push_back(pq.top());
+        visited.insert(pq.top().dst);
     }
     return res;
 }

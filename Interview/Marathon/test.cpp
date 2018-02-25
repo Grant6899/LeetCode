@@ -24,11 +24,11 @@ class Dashboard{
         if(j > 0){
             sensors[j].push_back(i);
             sensors[j-1].erase(location[i]);
-            location[i] = sensors[j].end();
+            location[i] = prev(sensors[j].end());
         }
         else{
             sensors[j].push_back(i);
-            location[i] = sensors[j].end();
+            location[i] = prev(sensors[j].end());
         }
     }   
 
@@ -39,6 +39,7 @@ class Dashboard{
             cout << *j << ' ';
             k--;
         }
+        cout << endl;
     }
 
     private:

@@ -11,32 +11,73 @@ using namespace std;
 
 class Solution {
 public:
-    bool isMatch(string s, string p) {
-        int  slen = s.size(), plen = p.size(), i, j, iStar=-1, jStar=-1;
+    bool isMatch(string s, string p){
+        int s_last_match_begin = -1;
+        int p_last_asterisk_pos = -1;
 
-        for(i=0,j=0 ; i<slen; ++i, ++j)
-        {
-            if(p[j]=='*')
-            { //meet a new '*', update traceback i/j info
-                iStar = i;
-                jStar = j;
-                --i;
+        int s_ptr = 0, p_ptr = 0;
+        while(s_ptr < s.size()){
+            if(p[p_ptr] == '*'){
+                
+                while(p_ptr+1 < p.size() && p[p_ptr+1] == '*')
+                    p_ptr++;
+
+                s_last_match_begin = s_ptr;
+                p_last_asterisk_pos = p_ptr++;
+            
             }
-            else
-            {
-                if(p[j]!=s[i] && p[j]!='?')
-                {  // mismatch happens
-                    if(iStar >=0)
-                    { // met a '*' before, then do traceback
-                        i = iStar++;
-                        j = jStar;
+            else {
+
+                if(s[s_ptr] == p[p_ptr] || p[p_ptr] == '?'){
+                    s_ptr++;
+                    p_ptr++;
+                }
+                else{ 
+                    if(p_last_asterisk_pos != -1){
+                        s_ptr = ++s_last_match_begin;
+                        p_ptr == p_last_asterisk_pos + 1;
                     }
-                    else return false; // otherwise fail
+                    else
+                        return false;
                 }
             }
         }
-        while(p[j]=='*') ++j;
-        return j==plen;
+        while(p[p_str] == '*') p_ptr++;
+        return(p.empty());
+    }
+
+    bool isMatch(const char *s, const char *p) {
+        // the char in s which the char right after '*' compares against before backtrack
+        const char *s_last_match_begin = NULL;
+        const char *p_last_asterisk_pos = NULL;
+ 
+        while (*s) {
+            if ('*' == *p) {
+                // skip continous '*' till reaching the last one
+                while ('*' == *(p + 1))   p++;
+ 
+                s_last_match_begin = s;
+                // p++, but not s++, to start w/ matching empty string
+                p_last_asterisk_pos = p++;
+            } else {
+                if (*s == *p || '?' == *p) {
+                    s++;
+                    p++;
+                } else {
+                    if (p_last_asterisk_pos != NULL) {
+                        // backtrack: '*' matches one more char
+                        s = ++s_last_match_begin;
+                        p = p_last_asterisk_pos + 1;
+                    } else {
+                        return false;
+                    }
+                }
+            }
+        }
+ 
+        // if string is over, the rest of pattern has to be all '*' to match
+        while ('*' == *p)  p++;
+        return (!*p);
     }
 };
 

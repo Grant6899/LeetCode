@@ -13,31 +13,62 @@ using namespace std;
 class Solution {
 public:
     int maximalRectangle(vector<vector<char>>& matrix) {
-        vector<vector<pair<int, int>>> dp(matrix.size(), vector<pair<int,int>>(matrix[0].size(),{0, 0} ));
-        int res = 0;  
-        for(int i = 0; i < matrix.size(); ++i)
-            for(int j = 0; j < matrix[0].size(); ++j){
+        if(matrix.empty() || matrix[0].empty())
+            return 0;
+        vector<vector<int>> left(matrix.size(), vector<int>(matrix[0].size(), 0)), right(matrix.size(), vector<int>(matrix[0].size(), matrix[0].size())), height(matrix.size(), vector<int>(matrix[0].size(), 0));
+        
+        int res = 0;
+        for(int i = 0; i < matrix.size(); ++i){
+            
+            int cur_left = 0, cur_right = matrix[0].size();
+            
+            for(int j = 0; j < matrix[0].size();++j)
                 if(matrix[i][j] == '1'){
-                    dp[i][j] = make_pair(1, 1);
-                
-                    if(i - 1 >= 0 && j - 1 >= 0){
-                        dp[i][j].first = min(dp[i-1][j-1].first, dp[i-1][j].first) + 1;
-                        dp[i][j].second = min(dp[i-1][j-1].second, dp[i][j-1].second) + 1;
-                    }
-                    else if(i - 1 >= 0)
-                        dp[i][j].first = dp[i-1][j].first + 1;
-                    else if(j - 1 >= 0)
-                        dp[i][j].second = dp[i][j-1].second + 1;
+                    left[i][j] = max((int)(i - 1 >= 0 ?left[i-1][j] : 0), cur_left);
                 }
-                else
-                    dp[i][j] = make_pair(0, 0);
+                else{
+                    left[i][j] = 0;
+                    cur_left = j + 1;
+                }
+                
+            for(int j = matrix[0].size() - 1; j >= 0;--j)               
+                if(matrix[i][j] == '1'){
+                    right[i][j] = min((int)(i - 1 >= 0? right[i-1][j] : matrix[0].size()), cur_right);
+                }
+                else{
+                    right[i][j] = matrix[0].size();
+                    cur_right = j;
+                }
+            
 
-                res = max(res, dp[i][j].first * dp[i][j].second);
-            }
-
+            for(int j = 0; j < matrix[0].size();++j)
+                if(matrix[i][j] == '1'){
+                    height[i][j] = (i - 1 >= 0? height[i-1][j] : 0) + 1;            
+                    res = max(res, (right[i][j] - left[i][j]) * height[i][j]);
+                }
+        }
+     /*   
+        
+        for(auto l : left){
+            for(int x : l)
+                cout << x << ' ';
+            cout << endl;
+        }
+        cout << endl;
+        for(auto r : right){
+            for(int x : r)
+                cout << x << ' ';
+            cout << endl;
+        }
+        cout << endl;
+        for(auto h : height){
+            for(int x : h)
+                cout << x << ' ';
+            cout << endl;
+        }*/
+        
         return res;
     }
-
 };
 
 int main(){

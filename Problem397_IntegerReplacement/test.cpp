@@ -7,53 +7,50 @@
 
 #include<iostream>
 #include<vector>
+#include<queue>
 using namespace std;
 
 class Solution {
 public:
     int integerReplacement(int n) {
-		if(n == 1)
-            return 0;
-		vector<int> prev{n};
-
-		vector<bool> visited(n, false);
-
-		int step = 0;
-		while(!prev.empty()){
-			step++;
-			vector<int> cur;
-			for(int p : prev){
-				cout << p << " ";
-				if((p % 2 == 1)){
-					if(p + 1 == 1 || p - 1 == 1)
-						return step;
-
-					if(!visited[p+1]){
-						cur.push_back(p+1);
-						visited[p+1]=true;
-					}
-
-					if(!visited[p-1]){
-						cur.push_back(p-1);
-						visited[p-1]=true;
-					}
+        if(n == 1) return 0;
+		queue<pair<int, int>> q;
+        vector<bool> visited(n + 2, false);
+        visited[n] = true;
+        q.push({n, 0});
+        
+		while(!q.empty()){
+            int p = q.front().first;
+		    int step = q.front().second;		
+            if((p % 2 == 1)){
+				if(p + 1 == 1 || p - 1 == 1)
+					return step + 1;
+					
+				if(!visited[p+1]){
+					q.push(make_pair(p+1, step + 1));
+					visited[p+1]=true;
 				}
-				else{
-					if(p/2 == 1)
-						return step;
-					if(!visited[p/2]){
-						cur.push_back(p/2);
-						visited[p/2] = true;
-					}
+					
+				if(!visited[p-1]){
+					q.push(make_pair(p-1, step + 1));
+					visited[p-1]=true;
 				}
 			}
-            cout << endl;
-			prev = cur;
+			else{
+				if(p/2 == 1)
+					return step + 1;
+				if(!visited[p/2]){
+					q.push(make_pair(p/2, step + 1));
+					visited[p/2] = true;
+				}
+			}
+            q.pop();
 		}
+	
 		return -1;
     }
-
-
+	
+	
 };
 
 int main(){

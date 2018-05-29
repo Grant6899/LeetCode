@@ -8,58 +8,69 @@
 #include<iostream>
 #include<vector>
 #include<set>
+#include<queue>
+#include<unordered_set>
+
 using namespace std;
 
 class Solution {
 public:
-    int findLadders(string beginWord, string endWord, vector<string>& wordList) {
-        vector<vector<string>> result;
-        unordered_set<string> wordDic;
-        for (auto it = wordList.begin(); it < wordList.end(); ++it)
-            wordDic.insert(*it);
-
-        if (wordDic.find(endWord) == wordDic.end())
-            return result;
-
-        vector<string> current = { beginWord };
-
-        return 0;
-    }
-
-    void findNext(const string& target, vector<string>& current, set<string>& wordDic){
-        if(current.back() == target){
-            
-        }
-
-        for(auto it = wordDic.begin(); it != wordDic.end();){
-            if(isNeighbor(current.back(), *it)){
-                auto temp = *it;
-                current.push_back(*it);
-                it = wordDic.erase(it);
-                findNext(current, wordDic);
-                wordDic.insert(temp);
-                current.pop_back();
+    vector<vector<string>> findLadders(string beginWord, string endWord, unordered_set<string> &wordList) {
+        //very interesting problem
+        //It can be solved with standard BFS. The tricky idea is doing BFS of paths instead of words!
+        //Then the queue becomes a queue of paths.
+        vector<vector<string>> ans;
+        queue<vector<string>> paths;
+        wordList.insert(endWord);
+        paths.push({beginWord});
+        int level = 1;
+        int minLevel = INT_MAX;
+        
+        //"visited" records all the visited nodes on this level
+        //these words will never be visited again after this level 
+        //and should be removed from wordList. This is guaranteed
+        // by the shortest path.
+        unordered_set<string> visited; 
+        
+        while (!paths.empty()) {
+            vector<string> path = paths.front();
+            paths.pop();
+            if (path.size() > level) {
+                //reach a new level
+                for (string w : visited) wordList.erase(w);
+                visited.clear();
+                if (path.size() > minLevel)
+                    break;
+                else
+                    level = path.size();
+            }
+            string last = path.back();
+            //find next words in wordList by changing
+            //each element from 'a' to 'z'
+            for (int i = 0; i < last.size(); ++i) {
+                string news = last;
+                for (char c = 'a'; c <= 'z'; ++c) {
+                    news[i] = c;
+                    if (wordList.find(news) != wordList.end()) {
+                    //next word is in wordList
+                    //append this word to path
+                    //path will be reused in the loop
+                    //so copy a new path
+                        vector<string> newpath = path;
+                        newpath.push_back(news);
+                        visited.insert(news);
+                        if (news == endWord) {
+                            minLevel = level;
+                            ans.push_back(newpath);
+                        }
+                        else
+                            paths.push(newpath);
+                    }
+                }
             }
         }
+        return ans;
     }
-
-
-
-    bool isNeighbor(string s1, string s2) {
-        int count = 0;
-
-        for (int i = 0; i < s1.size(); ++i) {
-            if (s1[i] != s2[i])
-                count++;
-            if (count > 1)
-                return false;
-        }
-
-        if (count == 1)
-            return true;
-        else return false;
-    }
-
 };
 
 int main(){

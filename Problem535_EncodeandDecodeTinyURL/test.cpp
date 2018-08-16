@@ -59,8 +59,12 @@ class Solution {
 
 int main(){
     Solution s;
-    string encoded = s.encode("https://leetcode.com/problems/design-tinyurl");
-    cout << encoded << endl;
-    cout << s.decode(encoded) << endl;
+
+    for(int i = 0; i < 100; ++i){
+        cout << s.encode("https://leetcode.com/problems/design-tinyurl" + to_string(i)) << endl;
+    }
+
+    cout << s.encode62(62) << endl;
+
     return 0;
 }

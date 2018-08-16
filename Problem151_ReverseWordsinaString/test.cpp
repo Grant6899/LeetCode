@@ -11,7 +11,7 @@ using namespace std;
 
 class Solution {
 public:
-    void reverseWords(string &s) {
+    /*void reverseWords(string &s) {
         reverse(s.begin(), s.end());
         int storeIndex = 0;
         for (int i = 0; i < s.size(); i++) {
@@ -24,13 +24,37 @@ public:
             }
         }
         s.erase(s.begin() + storeIndex, s.end());
+    }*/
+
+    void reverseWords(string &s) {
+        while(s.back() == ' ')
+            s.pop_back();
+        
+        reverse(s.begin(), s.end());
+        
+        while(s.back() == ' ')
+            s.pop_back();
+        
+        for(auto it = s.begin(); it != s.end(); ++it){
+            if(*it == ' '){
+                it = s.erase(it);
+                continue;
+            } 
+            auto left = it;
+            while(it != s.end() && *it != ' ') ++it;
+            reverse(left, it);
+            
+            if(it == s.end())
+                break;
+        }
     }
+
 };
 
 int main(){
     Solution s;
-    string str = "";
+    string str = "   a   b ";
     s.reverseWords(str);
-    cout << str << endl;
+    cout << "'" << str << "'" << endl;
     return 0;
 }
